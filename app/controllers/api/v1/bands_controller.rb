@@ -1,4 +1,4 @@
-class BandsController < ApplicationController
+class Api::V1::BandsController < ApplicationController
   before_action :set_band, only: [:show, :update, :destroy]
 
   # GET /bands
